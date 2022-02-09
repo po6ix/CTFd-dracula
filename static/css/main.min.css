@@ -63,8 +63,8 @@
 }
 
 .btn-primary:active, .challenge-button:active {
-  background-color: #8684e5!important;
-  border: 2px solid #8684e5!important;
+  background-color: #748ec9!important;
+  border: 2px solid #748ec9!important;
 }
 
 .challenge-button {
@@ -73,7 +73,7 @@
 
 .modal-content {
   /*border: 4px solid #516fdf8f!important;*/
-  border: 4px solid #7477c9!important;
+  border: 4px solid #748ec9!important;
   /* border-radius: 20px!important; */
   border-radius: 8px!important;
   background-color: #1b1d2e;
@@ -86,11 +86,11 @@
   background: 0 0!important;
   border-radius: 5px;
   transition: border .15s;
-  border: 2px solid #8684e5!important;
+  border: 2px solid #748ec9!important;
 }
 
 .modal-content code {
-  color: #a2a5f5;
+  color: #abc2f5;
 }
 
 .nav-tabs .nav-link {
@@ -98,15 +98,15 @@
 }
 
 .jumbotron {
-    background-color: #3e4052 !important;
+  background-color: #3e4052 !important;
 }
 
 .challenge-submit {
-    border: 2px solid #8684e5!important;
+  border: 2px solid #748ec9!important;
 }
 
 .challenge-desc a {
-  color: #8578e5;
+  color: #748ec9;
 }
 
 .solved-challenge {
@@ -115,14 +115,37 @@
 
 .solved-challenge:hover {
   background-color: #99aaff!important;
-  /*background-color: #7f92c7!important;*/
 }
 
 td {
-  font-family: monospace;
+  font-family: 'Metropolis';
 }
 
 a {
-  /*color: #8bb3fd;*/
   color: #ffffff;
+}
+
+.btn-outline-secondary:active {
+  background: #748ec9!important;
+  border: 2px solid #748ec9!important;
+  color: #fff;
+}
+
+.input-filled-valid {
+  border-color: #81a7ff;
+  box-shadow: 0 0 0 0rem #88adff;
+}
+
+.btn-primary {
+  border: 2px solid #8c93c1!important;
+}
+
+.form-control:focus {
+    border-color: #a5b0d7;
+    box-shadow: 0 0 0 0.1rem #748ec9;
+}
+
+.input-filled-valid {
+    border-color: #8c93c1;
+    box-shadow: 0 0 0 0rem #88adff;
 }
