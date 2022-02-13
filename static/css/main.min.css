@@ -149,3 +149,12 @@ a {
     border-color: #8c93c1;
     box-shadow: 0 0 0 0rem #88adff;
 }
+
+.badge-primary {
+  background-color: #5b6983;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #ffffff;
+    background-color: #748ec9;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
